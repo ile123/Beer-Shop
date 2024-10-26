@@ -13,7 +13,7 @@ const app = express();
 const port = process.env.PORT || 5000;
 
 mongoose
-  .connect("mongodb://localhost:5500/seminar")
+  .connect("mongodb://root:root@mongodb:27017/seminar")
   .then(() => {
     console.log("Connected to MongoDB");
   })

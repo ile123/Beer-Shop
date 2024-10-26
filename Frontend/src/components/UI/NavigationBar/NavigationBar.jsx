@@ -45,7 +45,6 @@ export default function NavigationBar() {
         name: "",
         cart: [],
       });
-      console.log("Uslo je");
     }
   }, [isJWTValid, setUserCart]);
 
